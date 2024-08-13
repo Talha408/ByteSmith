@@ -1,0 +1,14 @@
+.nav{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.css-1t6c9ts{
+gap: 50px;
+justify-content: flex-end;
+}
+.nav-link{
+    color: #fff;
+    font-size: 24px;
+}
