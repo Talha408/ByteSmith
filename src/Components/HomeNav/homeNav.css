@@ -1,0 +1,7 @@
+.Home-nav {
+  height: 100px;
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  box-shadow: none !important;
+}
