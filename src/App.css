@@ -1,0 +1,48 @@
+.primaryFont {
+  font-family: var(--primaryFont) !important;
+}
+
+.secondaryFont {
+  font-family: var(--secondaryFont) !important;
+}
+
+.primaryColor {
+  color: var(--primaryColor)
+}
+
+.secondaryColor {
+  color: var(--secondaryColor);
+}
+
+.h2 {
+  font-size: 48px !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.testing {
+  border: 1px solid black;
+}
+
+.clr-white {
+  color: #fff;
+}
+
+.flex-center {
+  align-items: center !important;
+  gap: 10px;
+}
