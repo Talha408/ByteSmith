@@ -1,6 +1,7 @@
 .card{
     width: 80%;
     margin: auto;
+    gap: 50px;
 }
 .cardContainer{
     flex-direction: column;
@@ -8,7 +9,7 @@
 }
 .img{
     height: 400px;
-    width: 50%;
+    width: 48%;
 }
 .card:nth-child(even){
     flex-direction: row-reverse;
@@ -16,12 +17,11 @@
 .cardText{
     flex-direction: column;
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
 }
+/* .card:nth-child(even) .cardText{
+} */
 .projectInfo{
-    text-align: center;
     width: 80%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 22px;
 }

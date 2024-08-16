@@ -4,10 +4,7 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import NavBar from "../Components/NabBar";
-
-import HomeNav from "../Components/HomeNav";
 import Footer from "../Components/Footer";
-
 import Project from "../Pages/Projects";
 
 const AppRoutes = () => {
@@ -18,7 +15,7 @@ const AppRoutes = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<WithNav element={<About />} />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Project/>} />
+          <Route path="/projects" element={<WithNav element={<Project/>} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

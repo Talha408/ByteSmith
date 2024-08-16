@@ -6,7 +6,7 @@ import { ArrowForward } from "@mui/icons-material";
 import About from "../../Assets/Home/aboutSection.jpg";
 import Service from "../../Assets/Home/service.jpg";
 import { services } from "../../Seed";
-import TimeLine from "../../Components/TimeLine";
+import { Link } from "react-router-dom";
 const Home = (props) => {
   return (
     <section className="page-section column">
@@ -15,12 +15,15 @@ const Home = (props) => {
         <div className="hero-wrapper column">
           <h1 className="title primaryFont clr-white">{props.title}</h1>
           <p className="clr-white">{props.description}</p>
+          <Link to={"/projects"}>
           <Button className="hero-btn" variant="outlined">
             Projects
             <span>
               <ArrowForward />
             </span>
           </Button>
+          </Link>
+         
         </div>
       </header>
       {/* About Section */}
@@ -28,12 +31,15 @@ const Home = (props) => {
         <div className="about-section-content column">
           <h2 className="h2">About Us</h2>
           <p className="description primaryColor">{props.aboutDescription}</p>
+          <Link to={"/about"}>
           <Button className="btn primaryFont" variant="contained">
             Learn More
             <span>
               <ArrowForward />
             </span>
           </Button>
+          </Link>
+        
         </div>
         <div className="about-img">
           <img src={About} alt="image" />

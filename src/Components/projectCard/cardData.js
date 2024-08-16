@@ -32,7 +32,7 @@ const cardData = [
     title: "HospitalRun",
     image: hospitalRunImage,
     description:
-      "HospitalRun is an open-source hospital management software tailored for medical facilities in developing regions. It features an offline-first design, ensuring uninterrupted functionality in areas with limited internet access. The platform streamlines patient management, medical records, and inventory tracking, enhancing operational efficiency and care quality. Its user-friendly interface and customizable architecture make it an essential tool for healthcare providers in resource-limited settings.",
+      "We have contributed in an open sources projet called HospitalRun. HospitalRun is an open-source hospital management software tailored for medical facilities in developing regions. It features an offline-first design, ensuring uninterrupted functionality in areas with limited internet access. The platform streamlines patient management, medical records, and inventory tracking, enhancing operational efficiency and care quality. Its user-friendly interface and customizable architecture make it an essential tool for healthcare providers in resource-limited settings.",
   },
 ];
 
