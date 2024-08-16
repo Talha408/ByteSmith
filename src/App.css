@@ -49,10 +49,20 @@
 li {
   list-style: none;
 }
-.center{
+.center {
   text-align: center;
 }
 
-.mb-30{
-margin-bottom: 30px;
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .h2 {
+    font-size: 32px !important;
+  }
+  .description{
+    font-size: 16px;
+  }
 }
