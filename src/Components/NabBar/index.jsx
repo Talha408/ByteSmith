@@ -9,10 +9,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import logo from "../../Pages/Assets/logo.png"
 import "./nav.css"
 let pages = [
-  ["Home", "About", "Contact"],
-  ["/", "/about", "/contact"],
+  ["Home", "About", "Contact","Projects"],
+  ["/", "/about", "/contact","/projects"],
 ];
 console.log("i am pages", pages[0]);
 console.log("I am links", pages[1]);
@@ -46,7 +47,7 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            Nabeel Agency
+<img src={logo} alt="ByteSmith" className="logo" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
