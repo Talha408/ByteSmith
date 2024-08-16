@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-clr">
       <Box className="footer-section" component="div">
         <Box className="column site-map">
-          <h2 className="secondaryColor">Site Map</h2>
+          <h2 className="secondaryColor description">Site Map</h2>
           <ul className="column primaryColor">
             <li>
               <Link to="/" className="link primaryColor">
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </Box>
         <Box className="column Contact">
-          <h2 className="secondaryColor">Contact Us</h2>
+          <h2 className="secondaryColor description">Contact Us</h2>
           <ul className="column primaryColor">
             <li>83, Muslim Colony, National Town, Lahore</li>
             <li>+923353135654, +92308815979, +923207347511</li>

@@ -4,7 +4,12 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import NavBar from "../Components/NabBar";
+
+import HomeNav from "../Components/HomeNav";
+import Footer from "../Components/Footer";
+
 import Project from "../Pages/Projects";
+
 const AppRoutes = () => {
   return (
     <>

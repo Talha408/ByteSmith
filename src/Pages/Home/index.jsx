@@ -40,7 +40,7 @@ const Home = (props) => {
         </div>
       </section>
       {/* Service Section */}
-      <section>
+      <section className="service-section">
         <Box component="div" className="column service-head">
           <h2 className="h2">Our Services</h2>
           <p className="primaryColor">{props.serviceDescription}</p>
@@ -56,7 +56,7 @@ const Home = (props) => {
               >
                 <img src={service.img} alt="img" />
                 <div className="column service-card-content">
-                  <h2 className="primaryFont">{service.title}</h2>
+                  <h2 className="primaryFont description">{service.title}</h2>
                   <p className="primaryColor">{service.description}</p>
                 </div>
               </Box>
