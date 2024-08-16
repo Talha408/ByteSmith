@@ -12,8 +12,8 @@ import "./homeNav.css"
 import { Link } from "react-router-dom";
 import Logo from "../../Pages/Assets/logo.png"
 let pages = [
-  ["Home", "About", "Contact", "Projects"],
-  ["/", "/about", "/contact", "/projects"],
+  ["Home", "About",  "Projects" ,"Contact",],
+  ["/", "/about", "/projects" ,"/contact", ],
 ];
 function HomeNav() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

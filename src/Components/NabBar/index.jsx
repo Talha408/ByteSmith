@@ -12,11 +12,10 @@ import { Link } from "react-router-dom";
 import logo from "../../Pages/Assets/logo.png"
 import "./nav.css"
 let pages = [
-  ["Home", "About", "Contact","Projects"],
-  ["/", "/about", "/contact","/projects"],
+  ["Home", "About",  "Projects" ,"Contact",],
+  ["/", "/about", "/projects" ,"/contact", ],
 ];
-console.log("i am pages", pages[0]);
-console.log("I am links", pages[1]);
+
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
