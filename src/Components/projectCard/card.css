@@ -1,0 +1,27 @@
+.card{
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+}
+.cardContainer{
+    flex-direction: column;
+    gap: 40px;
+}
+.img{
+    height: 400px;
+    width: 48%;
+}
+.card:nth-child(even){
+    flex-direction: row-reverse;
+}
+.cardText{
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+/* .card:nth-child(even) .cardText{
+} */
+.projectInfo{
+    width: 80%;
+    font-size: 22px;
+}

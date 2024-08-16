@@ -1,0 +1,37 @@
+.footer-section {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+footer li {
+  font-size: 20px;
+}
+footer ul {
+  gap: 10px;
+}
+footer ul .link:hover {
+  cursor: pointer;
+  color: white;
+}
+.patent {
+  background-color: #fff;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  footer li {
+    font-size: 16px;
+  }
+  .footer-section {
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+}
