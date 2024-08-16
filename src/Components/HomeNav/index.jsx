@@ -10,9 +10,10 @@ import Container from "@mui/material/Container";
 import AdbIcon from "@mui/icons-material/Adb";
 import "./homeNav.css"
 import { Link } from "react-router-dom";
+import Logo from "../../Pages/Assets/logo.png"
 let pages = [
-  ["Home", "About", "Contact", "Porject"],
-  ["/", "/about", "/contact"],
+  ["Home", "About", "Contact", "Projects"],
+  ["/", "/about", "/contact", "/projects"],
 ];
 function HomeNav() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -28,23 +29,7 @@ function HomeNav() {
     <AppBar position="static" className="Home-nav">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            Nabeel Agency
-          </Typography>
+          <img src={Logo} alt="img" className="logo" />
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
