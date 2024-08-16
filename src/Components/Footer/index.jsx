@@ -40,6 +40,7 @@ const Footer = () => {
             <li>www.xyz.com</li>
           </ul>
         </Box>
+        
       </Box>
       <Box component="div" className="patent">
         <p>© 2024 ByteSmith.com. All Rights Reserved.</p>
