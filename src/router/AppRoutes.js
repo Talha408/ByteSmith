@@ -13,11 +13,11 @@ const AppRoutes = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/abdulmoiz180/Potfolio/" element={<Home />} />
+          <Route path="/abdulmoiz180/Portfolio/" element={<Home />} />
           <Route path="*" element={<Error404 />} />
-          <Route path="/abdulmoiz180/Potfolio/about" element={<WithNav element={<About />} />} />
-          <Route path="/abdulmoiz180/Potfolio/contact" element={<WithNav element={<Contact />} />} />
-          <Route path="/abdulmoiz180/Potfolio/projects" element={<WithNav element={<Project/>} />} />
+          <Route path="/abdulmoiz180/Portfolio/about" element={<WithNav element={<About />} />} />
+          <Route path="/abdulmoiz180/Portfolio/contact" element={<WithNav element={<Contact />} />} />
+          <Route path="/abdulmoiz180/Portfolio/projects" element={<WithNav element={<Project/>} />} />
         </Routes>
       </BrowserRouter>
       
