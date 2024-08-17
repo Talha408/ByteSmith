@@ -7,8 +7,10 @@ import About from "../../Assets/Home/aboutSection.jpg";
 import Service from "../../Assets/Home/service.jpg";
 import { services } from "../../Seed";
 import { Link } from "react-router-dom";
+import Footer from "../../Components/Footer";
 const Home = (props) => {
   return (
+    <>
     <section className="page-section column">
       <header className="hero-section">
         <HomeNav />
@@ -74,6 +76,8 @@ const Home = (props) => {
         </div>
       </section>
     </section>
+      <Footer />
+</>
   );
 };
 
