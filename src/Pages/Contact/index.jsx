@@ -62,10 +62,10 @@ function SignUp() {
     <section className="section">
       <header className="hero">
         <img src={BackGround} alt="image" />
-        <h2 className="title  primaryFont">About Us</h2>
+        <h2 className="title  primaryFont">Contact Us</h2>
       </header>
       <Box component="div" className="vision">
-        <h2 className="h2 secondaryColor primaryFont">Our vision</h2>
+        <h2 className="h2 secondaryColor primaryFont">Send us a message</h2>
         <p className="description primaryColor">
           Take your business to the next level with ByteSmiths Our team of
           experts is dedicated to delivering top-notch IT services and
