@@ -12,7 +12,7 @@ const AppRoutes = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/abdulmoiz180/Portfolio/" element={<Home />} />
           <Route path="/about" element={<WithNav element={<About />} />} />
           <Route path="/contact" element={<WithNav element={<Contact />} />} />
           <Route path="/projects" element={<WithNav element={<Project/>} />} />

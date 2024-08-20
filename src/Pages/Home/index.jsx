@@ -68,9 +68,9 @@ const Home = (props) => {
               </Box>
             ))}
           </div>
-          <box component="div" className="service-img">
+          <div component="div" className="service-img">
             <img src={Service} alt="img" />
-          </box>
+          </div>
         </div>
       </section>
     </section>
