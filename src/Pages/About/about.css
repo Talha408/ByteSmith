@@ -49,16 +49,13 @@
 
 .about-content p {
   width: 50%;
+  min-width: 600px;
   margin: auto;
   font-size: 20px;
 }
 /* .project-content-wrapper{
 
 } */
-.project-content {
-  width: 80%;
-  margin: auto;
-}
 .project-content h2 {
   text-align: center;
   margin-top: 50px;
@@ -94,60 +91,4 @@
 }
 .css-1ami7lv-MuiTimelineConnector-root {
   background-color: #5271ff;
-}
-@media only screen and (max-width: 600px) {
-  .about-content p {
-    width: 100%;
-    font-size: 16px;
-  }
-  .about-content {
-    width: 100%;
-  }
-  .project-section {
-    width: 100%;
-    padding: 10px;
-  }
-  .project-content {
-    width: calc(100% - 10px);
-  }
-  /* TimeLine */
-  .timeline-title {
-    font-size: 18px !important;
-  }
-  .timeline-description {
-    font-size: 14px !important;
-    width: 100% !important;
-  }
-  .timeline-icon {
-    width: 30px;
-    margin: 5px;
-  }
-  .project-content-wrapper h3 {
-    font-size: 24px;
-  }
-  .project-content-wrapper p {
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .about-content {
-    width: 100%;
-  }
-  .project-section {
-    width: calc(100% - 50px);
-  }
-}
-@media only screen and (min-width: 992px) {
-  .about-content {
-    width: 75%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .about-content p {
-    width: 50% !important;
-  }
-  .timeline-description {
-    font-size: 18px !important;
-    width: 50% !important;
-  }
 }

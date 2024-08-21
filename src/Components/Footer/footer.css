@@ -8,8 +8,19 @@
 footer li {
   font-size: 20px;
 }
+footer li a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
 footer ul {
   gap: 10px;
+}
+.social-icons{
+  gap: 0px;
+}
+footer li img{
+  width: 25px;
+  height: 25px;
 }
 footer ul .link:hover {
   cursor: pointer;
@@ -22,16 +33,41 @@ footer ul .link:hover {
   align-items: center;
   justify-content: center;
 }
+.Footerlogo{
+  height: 290px;
+  width: 330px;
+}
+@media only screen and (max-width:830px){
+  .Footerlogo {
+    height: 200px;
+    width: 200px;
+}
+.description{
+font-size: 18px;
+}
+.footer-section {
+  gap: 30px;
+}
+
+}
 @media only screen and (max-width: 600px) {
   footer li {
     font-size: 16px;
   }
   .footer-section {
+    flex-direction: column;
+    align-items: flex-start;
     height: 100%;
     display: flex;
     padding: 20px;
     justify-content: flex-start;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 15px;
+}
+.Footerlogo {
+  height: 210px;
+  width: 320px;
+}
+.column {
+  gap: 5px;
 }
 }

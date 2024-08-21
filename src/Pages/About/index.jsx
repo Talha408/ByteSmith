@@ -14,11 +14,11 @@ const About = () => {
       <section className="project-section">
         <Box component="div" className="about-content column">
           <h2 className="title secondaryColor primaryFont">Our vision</h2>
-          <p>{aboutUsContent.about}</p>
+          <p className="">{aboutUsContent.about}</p>
         </Box>
 
         <Box component="div" className="project-content">
-          <h2 className="title primaryFont secondaryColor">Our Projects</h2>
+          <h2 className="title primaryFont">Our Projects</h2>
           {aboutUsContent.projects.map((project, index) => (
             <Box
               component="div"

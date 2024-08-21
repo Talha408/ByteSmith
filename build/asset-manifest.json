@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ByteSmith/static/css/main.613d8e59.css",
+    "main.js": "/ByteSmith/static/js/main.90ad5a85.js",
+    "static/media/aboutSection.jpg": "/ByteSmith/static/media/aboutSection.cb836d010cab0dd263fe.jpg",
+    "static/media/hero.jpg": "/ByteSmith/static/media/hero.fa24986375d4b528467e.jpg",
+    "static/media/ProgrammerPicProject.jpg": "/ByteSmith/static/media/ProgrammerPicProject.7bab9ea3c3c801997fa7.jpg",
+    "static/media/aboutbg.jpg": "/ByteSmith/static/media/aboutbg.4ce2e26fa677737eb112.jpg",
+    "static/media/contact.jpg": "/ByteSmith/static/media/contact.a303b332546acbc88052.jpg",
+    "static/media/service.jpg": "/ByteSmith/static/media/service.fe96f8037e8a339b8ddc.jpg",
+    "static/media/lAKEY.PNG": "/ByteSmith/static/media/lAKEY.9555e6a772e126b2be1b.PNG",
+    "static/media/hospital run.JPG": "/ByteSmith/static/media/hospital run.d87cb46960e06bee3173.JPG",
+    "static/media/hotel.JPG": "/ByteSmith/static/media/hotel.47a475817be57a5c6651.JPG",
+    "static/media/tasktre.JPG": "/ByteSmith/static/media/tasktre.257eebebe680a3b95c92.JPG",
+    "static/media/mughal.JPG": "/ByteSmith/static/media/mughal.845438f7f86a03da57db.JPG",
+    "static/media/maintanace.png": "/ByteSmith/static/media/maintanace.fc8d646092d85f613929.png",
+    "static/media/logo.png": "/ByteSmith/static/media/logo.0e3faf415a076e2a0cef.png",
+    "static/media/ECommerce.png": "/ByteSmith/static/media/ECommerce.afa520c385a2618496f2.png",
+    "static/media/SEO.png": "/ByteSmith/static/media/SEO.92e4ebc86f9fcd088586.png",
+    "static/media/UIdesign.png": "/ByteSmith/static/media/UIdesign.bd95cec8e489423ddc3f.png",
+    "static/media/development.png": "/ByteSmith/static/media/development.f9d169e80e84e333a6d1.png",
+    "static/media/web.png": "/ByteSmith/static/media/web.f9d169e80e84e333a6d1.png",
+    "static/media/app.png": "/ByteSmith/static/media/app.a023733a4ef21de48613.png",
+    "static/media/UI.png": "/ByteSmith/static/media/UI.e9086d818a20db11202d.png",
+    "static/media/requriement.png": "/ByteSmith/static/media/requriement.56e04d9ed4bf7eac08b5.png",
+    "index.html": "/ByteSmith/index.html",
+    "main.613d8e59.css.map": "/ByteSmith/static/css/main.613d8e59.css.map",
+    "main.90ad5a85.js.map": "/ByteSmith/static/js/main.90ad5a85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613d8e59.css",
+    "static/js/main.90ad5a85.js"
+  ]
+}

@@ -10,6 +10,10 @@
 .img{
     height: 400px;
     width: 48%;
+    transition: linear .3s;
+}
+.img:hover{
+    transform: scale(1.01);
 }
 .card:nth-child(even){
     flex-direction: row-reverse;
