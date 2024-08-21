@@ -13,7 +13,7 @@ const Home = (props) => {
       <header className="hero-section">
         <HomeNav />
         <div className="hero-wrapper column">
-          <h1 className="title primaryFont clr-white">{props.title}</h1>
+          <h1 className="title primaryFont clr-white center">{props.title}</h1>
           <p className="clr-white">{props.description}</p>
           <Link to={"/projects"}>
           <Button className="hero-btn" variant="outlined">

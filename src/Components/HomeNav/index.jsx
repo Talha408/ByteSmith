@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import "./homeNav.css"
 import { Link } from "react-router-dom";
 import Logo from "../../Pages/Assets/logo.png"
-import { pages } from "../../Seed";
+ import { pages } from "../../Seed";
 function HomeNav() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -61,13 +61,14 @@ function HomeNav() {
                   to={pages[1][index]}
                   key={index} // Using index as a key is not ideal, but works in this simple case
                   onClick={handleCloseNavMenu}
+                  className="link secondayColor"
                 >
                   <Typography textAlign="center">{pageName}</Typography>
                 </Link>
               ))}
             </Menu>
           </Box>
-          <Box component="div" sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} className="mob-link">
+          <Box component="div" sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages[0].map((pageName, index) => (
          
                 <Link
