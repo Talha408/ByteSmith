@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "Oldpage": "https://github.com/abdulmoiz180/Portfolio", // should not used.
   "homepage": "https://abdulmoiz180.github.io/ByteSmith",
   "version": "0.1.0",
   "private": true,

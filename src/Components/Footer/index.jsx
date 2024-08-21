@@ -43,7 +43,7 @@ const Footer = () => {
         
       </Box>
       <Box component="div" className="patent">
-        <p>© 2024 ByteSmith.com. All Rights Reserved.</p>
+        <p className="center"> © 2024 ByteSmith.com. All Rights Reserved.</p>
       </Box>
     </footer>
   );
