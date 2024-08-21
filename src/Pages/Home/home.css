@@ -279,4 +279,8 @@
     width: 40%;
     margin: 20px auto 40px auto;
   }
+  
+  .services-wrapper{
+    gap: 50px;
+  }
 }

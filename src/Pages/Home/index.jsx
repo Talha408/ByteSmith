@@ -54,10 +54,8 @@ const Home = (props) => {
         <div className="services-wrapper">
           <div className="service-card-wrapper column">
             {services.map((service, index) => (
-              <Box
-                component="div"
-                className="service-card "
-                display="flex"
+              <div
+                className="service-card flex "
                 key={index}
               >
                 <img src={service.img} alt="img" />
@@ -65,7 +63,7 @@ const Home = (props) => {
                   <h2 className="primaryFont description">{service.title}</h2>
                   <p className="primaryColor">{service.description}</p>
                 </div>
-              </Box>
+              </div>
             ))}
           </div>
           <div component="div" className="service-img">
