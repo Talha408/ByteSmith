@@ -5,10 +5,7 @@ import UI from "./Assets/Icons/UI.png";
 import Apps from "./Assets/Icons/app.png";
 
 let CompanyName = "ByteSmith";
-export let pages = [
-  ["Home", "About", "Projects", "Contact"],
-  ["/", "/about", "/projects", "/contact"],
-];
+
 export let services = [
   {
     title: "Web Development",
@@ -38,7 +35,7 @@ export let services = [
 ];
 const aboutUsContent = {
   about:
-    "Welcome to ByteSmith where innovation meets functionality. We are a dedicated team of developers and designers passionate about creating impactful digital solutions. Our diverse portfolio reflects our commitment to excellence and our ability to tackle complex challenges across various domains.",
+    "Welcome to CodeCrafters where innovation meets functionality. We are a dedicated team of developers and designers passionate about creating impactful digital solutions. Our diverse portfolio reflects our commitment to excellence and our ability to tackle complex challenges across various domains.",
   projects: [
     {
       title: "Punjabi Cuisine",

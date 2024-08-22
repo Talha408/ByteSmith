@@ -10,7 +10,11 @@ import Container from "@mui/material/Container";
 import { Link } from "react-router-dom";
 import logo from "../../Pages/Assets/logo.png";
 import "./nav.css";
-import { pages } from "../../Seed";
+
+let pages = [
+  ["Home", "About", "Projects", "Contact"],
+  ["/", "/about", "/projects", "/contact"],
+];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -26,20 +30,37 @@ function Navbar() {
     <AppBar position="static" className="nav">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          {/* Logo for desktop view */}
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: "none", md: "flex" },
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+          </Typography>
           <img src={logo} alt="ByteSmith" className="logo" />
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+              aria-label="menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="black"
+              className="menu-icon"
             >
-              <MenuIcon className="menuIcon" />
+              <MenuIcon />
             </IconButton>
             <Menu
-              className="menu"
+              className="nav-center"
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -60,15 +81,32 @@ function Navbar() {
               {pages[0].map((pageName, index) => (
                 <Link
                   to={pages[1][index]}
-                  key={index} // Using index as a key is not ideal, but works in this simple case
+                  key={index}
                   onClick={handleCloseNavMenu}
-                  className="nav-link secondaryColor link m-10"
                 >
                   <Typography textAlign="center">{pageName}</Typography>
+
                 </Link>
               ))}
             </Menu>
           </Box>
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: "flex", md: "none" },
+              flexGrow: 1,
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+          </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages[0].map((pageName, index) => (
@@ -81,10 +119,12 @@ function Navbar() {
                 {pageName}
               </Link>
             ))}
+            
           </Box>
         </Toolbar>
       </Container>
     </AppBar>
   );
 }
+
 export default Navbar;
