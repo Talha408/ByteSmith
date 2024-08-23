@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.whySection {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hero {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: -1px 8px 17px 11px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 8px 17px 11px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 18px 27px -10px rgba(0, 0, 0, 0.4);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0, 0.9) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  width: 100%;
+  height: 100%;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero h2 {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+.project-page {
+  flex-direction: column;
+  gap: 100px;
+}
+.cardContainer {
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.whySection p {
+  width: 40% !important;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1280px){
+  .card p {
+    width: 100%;
+    font-size: 20px;
+}
+.card img{
+  width: 50%;
+  height: 315px;
+}
+.cardContainer {
+ margin-bottom: 80px;
+}
+.whySection p {
+  width: 80% !important;
+
+}
+}
+@media only screen and (max-width: 1024px) {
+  .whySection p {
+    width: 70% !important;
+    text-align: center;
+    font-size: 18px;
+  }
+  .card {
+    gap: 30px;
+}
+  .card img {
+    height: 260px;
+    width: 100%;
+  }
+  .card .cardText {
+    width: 100%;
+  }
+  .card p {
+    width: 100%;
+    font-size: 17px;
+  }
+  .h2 {
+    font-size: 36px !important;
+  }
+  .cardContainer .card {
+    width: 90%;
+    margin: auto;
+  }
+  .cardContainer {
+    margin-bottom: 60px;
+   }
+}
+@media only screen and (max-width: 844px) {
+ .cardContainer .card {
+    width: 90%;
+    gap: 20px;
+}
+.card img {
+  height: 255px;
+  width: 55%;
+}
+.card p {
+  width: 100%;
+  font-size: 15px;
+}
+.cardContainer {
+  margin-bottom: 50px;
+ }
+}
+@media only screen and (max-width: 790px){
+  .card .cardText {
+    width: 100%;
+  }
+  .card img {
+    height: 225px;
+    width: 55%;
+}
+  .card p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .h2 {
+    font-size: 30px !important;
+  }
+  .cardContainer {
+    margin-bottom: 50px;
+   }
+}
+@media only screen and (max-width: 600px) {
+  .whySection p {
+    width: calc(100% -  10px) !important;
+    font-size: 16px;
+  }
+  .card img {
+    height: 255px;
+    width: 100%;
+  }
+  .card .cardText {
+    width: 100%;
+  }
+  .card p {
+    width: 95%;
+    font-size: 16px;
+  }
+    .h2 {
+      font-size: 44px !important;
+    }
+  .cardContainer .card {
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .cardContainer {
+    margin-bottom: 0px;
+   }
+  }
+

@@ -1,0 +1,14 @@
+.Home-nav {
+  height: 100px;
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  box-shadow: none !important;
+}
+.mob-link{
+  background-color: white;
+}
+.mob-link .link{
+  color: var(--secondaryColor) !important;
+  text-decoration: none !important;
+}
