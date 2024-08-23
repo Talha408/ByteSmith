@@ -1,15 +1,10 @@
 {
   "name": "portfolio",
-<<<<<<< HEAD
-  "homepage": "https://abdulmoiz180.github.io/ByteSmith",
-  "OldPage": "https://github.com/abdulmoiz180/Portfolio",
-=======
 
   "homepage": "https://abdulmoiz180.github.io/ByteSmith",
 
   "OldPage": "https://github.com/abdulmoiz180/Portfolio",
 
->>>>>>> 3972385d8f689103ee9bc700375a320aefe07e9f
   "version": "0.1.0",
   "private": true,
   "dependencies": {
