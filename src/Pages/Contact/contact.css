@@ -135,3 +135,73 @@ p {
 .contact-icon{
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .field-row {
+        flex-direction: column;
+
+    }
+
+    .contact-us {
+        flex-direction: column;
+
+    }
+
+    .info-box {
+        width: 100%;
+
+    }
+
+    .form-wrapper {
+        width: 100%;
+
+    }
+
+    .vision {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .vision {
+        width: 60%;
+    }
+    
+    .field-row {
+        flex-direction: column;
+
+    }
+
+    .contact-us{
+    width: 88%;
+    gap: 40px;    
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .field-row {
+        flex-direction: row;
+
+    }
+
+    .contact-us{
+        width: 95%;
+        gap: 30px;    
+        }
+
+}
+
+@media only screen and (min-width: 1200px){
+.vision{
+width: 48%;
+
+}
+.contact-us{
+    width: 80%;    
+}
+
+
+}
