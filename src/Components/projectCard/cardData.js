@@ -1,6 +1,6 @@
 import lakeyImage from "../../Pages/Assets/lAKEY.PNG";
 import hotelImage from "../../Pages/Assets/hotel.png";
-import mughalImage from "../../Pages/Assets/mughal.JPG";
+import mughalImage from "../../Pages/Assets/mughal.png";
 import tasktrekImage from "../../Pages/Assets/tasktre.png";
 import hospitalRunImage from "../../Pages/Assets/hospital run.png";
 const cardData = [

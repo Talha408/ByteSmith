@@ -7,7 +7,7 @@ import Apps from "./Assets/Icons/app.png";
 let CompanyName = "ByteSmith";
 export let pages = [
   ["Home", "About", "Projects", "Contact"],
-  ["/", "/about", "/projects", "/contact"],
+  ["/ByteSmith/", "/ByteSmith/about", "/ByteSmith/projects", "/ByteSmith/contact"],
 ];
 export let services = [
   {

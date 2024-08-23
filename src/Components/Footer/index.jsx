@@ -21,22 +21,22 @@ const Footer = () => {
               <h2 className="secondaryColor h2">Site Map</h2>
               <ul className="column primaryColor">
                 <li>
-                  <Link to="/" className="link ">
+                  <Link to="/ByteSmith/" className="link ">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="link ">
+                  <Link to="/ByteSmith/about" className="link ">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projects" className="link ">
+                  <Link to="/ByteSmith/projects" className="link ">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="link ">
+                  <Link to="/ByteSmith/contact" className="link ">
                     Contact
                   </Link>
                 </li>

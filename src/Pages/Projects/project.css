@@ -10,12 +10,6 @@
   justify-content: center;
   gap: 20px;
 }
-.whySection p {
-  width: 40%;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-}
 .hero {
   height: 400px;
   width: 100%;
@@ -59,6 +53,13 @@
   flex-direction: column;
   gap: 40px;
   align-items: center;
+  margin-bottom: 100px;
+}
+.whySection p {
+  width: 40% !important;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
 @media only screen and (max-width: 1280px){
   .card p {
@@ -69,10 +70,17 @@
   width: 50%;
   height: 315px;
 }
+.cardContainer {
+ margin-bottom: 80px;
+}
+.whySection p {
+  width: 80% !important;
+
+}
 }
 @media only screen and (max-width: 1024px) {
   .whySection p {
-    width: 50%;
+    width: 70% !important;
     text-align: center;
     font-size: 18px;
   }
@@ -97,6 +105,9 @@
     width: 90%;
     margin: auto;
   }
+  .cardContainer {
+    margin-bottom: 60px;
+   }
 }
 @media only screen and (max-width: 844px) {
  .cardContainer .card {
@@ -111,6 +122,9 @@
   width: 100%;
   font-size: 15px;
 }
+.cardContainer {
+  margin-bottom: 50px;
+ }
 }
 @media only screen and (max-width: 790px){
   .card .cardText {
@@ -127,10 +141,13 @@
   .h2 {
     font-size: 30px !important;
   }
+  .cardContainer {
+    margin-bottom: 50px;
+   }
 }
 @media only screen and (max-width: 600px) {
   .whySection p {
-    width: 90%;
+    width: calc(100% -  10px) !important;
     font-size: 16px;
   }
   .card img {
@@ -153,5 +170,8 @@
     gap: 50px;
     flex-wrap: wrap;
   }
+  .cardContainer {
+    margin-bottom: 0px;
+   }
   }
 
