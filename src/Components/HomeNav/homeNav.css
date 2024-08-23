@@ -5,3 +5,10 @@
   justify-content: center;
   box-shadow: none !important;
 }
+.mob-link{
+  background-color: white;
+}
+.mob-link .link{
+  color: var(--secondaryColor) !important;
+  text-decoration: none !important;
+}

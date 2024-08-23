@@ -1,10 +1,7 @@
 {
   "name": "portfolio",
-<<<<<<<<< Temporary merge branch 1
   "homepage": "https://abdulmoiz180.github.io/ByteSmith",
-=========
   "OldPage": "https://github.com/abdulmoiz180/Portfolio",
->>>>>>>>> Temporary merge branch 2
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -15,7 +15,7 @@ const Home = (props) => {
       <header className="hero-section">
         <HomeNav />
         <div className="hero-wrapper column">
-          <h1 className="title primaryFont clr-white">{props.title}</h1>
+          <h1 className="title primaryFont clr-white center">{props.title}</h1>
           <p className="clr-white">{props.description}</p>
           <Link to={"/projects"}>
           <Button className="hero-btn" variant="outlined">
@@ -56,10 +56,8 @@ const Home = (props) => {
         <div className="services-wrapper">
           <div className="service-card-wrapper column">
             {services.map((service, index) => (
-              <Box
-                component="div"
-                className="service-card "
-                display="flex"
+              <div
+                className="service-card flex "
                 key={index}
               >
                 <img src={service.img} alt="img" />
@@ -67,16 +65,15 @@ const Home = (props) => {
                   <h2 className="primaryFont description">{service.title}</h2>
                   <p className="primaryColor">{service.description}</p>
                 </div>
-              </Box>
+              </div>
             ))}
           </div>
-          <box component="div" className="service-img">
+          <div component="div" className="service-img">
             <img src={Service} alt="img" />
-          </box>
+          </div>
         </div>
       </section>
     </section>
-      {/* <Footer /> */}
 </>
   );
 };

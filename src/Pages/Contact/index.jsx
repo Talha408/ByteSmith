@@ -167,7 +167,7 @@ function SignUp() {
           </div>
 
           <div className="field-row">
-            <Button variant="contained" type="submit" fullWidth>
+            <Button variant="contained" type="submit" className="button" fullWidth>
               Send Message
             </Button>
           </div>
