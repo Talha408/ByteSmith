@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ByteSmith/static/css/main.ec03d96b.css",
+    "main.js": "/ByteSmith/static/js/main.a8d196ad.js",
+    "static/media/aboutSection.jpg": "/ByteSmith/static/media/aboutSection.cb836d010cab0dd263fe.jpg",
+    "static/media/hero.jpg": "/ByteSmith/static/media/hero.fa24986375d4b528467e.jpg",
+    "static/media/ProgrammerPicProject.jpg": "/ByteSmith/static/media/ProgrammerPicProject.7bab9ea3c3c801997fa7.jpg",
+    "static/media/aboutbg.jpg": "/ByteSmith/static/media/aboutbg.4ce2e26fa677737eb112.jpg",
+    "static/media/contact.jpg": "/ByteSmith/static/media/contact.a303b332546acbc88052.jpg",
+    "static/media/service.jpg": "/ByteSmith/static/media/service.fe96f8037e8a339b8ddc.jpg",
+    "static/media/hotel.png": "/ByteSmith/static/media/hotel.0a42bb6089d7ff9570d6.png",
+    "static/media/lAKEY.PNG": "/ByteSmith/static/media/lAKEY.4da3d385895b7127a0f3.PNG",
+    "static/media/hospital run.png": "/ByteSmith/static/media/hospital run.49f88a8f9c2fe243aae1.png",
+    "static/media/tasktre.png": "/ByteSmith/static/media/tasktre.0750087f8325d9ae4cc9.png",
+    "static/media/mughal.png": "/ByteSmith/static/media/mughal.edeb1a0a05023c5c44b4.png",
+    "static/media/insta.png": "/ByteSmith/static/media/insta.28944b9a16197e849f88.png",
+    "static/media/maintanace.png": "/ByteSmith/static/media/maintanace.fc8d646092d85f613929.png",
+    "static/media/upwork.png": "/ByteSmith/static/media/upwork.170c0d51aa70aa04b094.png",
+    "static/media/logo.png": "/ByteSmith/static/media/logo.9453a1f341b83a561d5a.png",
+    "static/media/ECommerce.png": "/ByteSmith/static/media/ECommerce.afa520c385a2618496f2.png",
+    "static/media/SEO.png": "/ByteSmith/static/media/SEO.92e4ebc86f9fcd088586.png",
+    "static/media/UIdesign.png": "/ByteSmith/static/media/UIdesign.bd95cec8e489423ddc3f.png",
+    "static/media/development.png": "/ByteSmith/static/media/development.f9d169e80e84e333a6d1.png",
+    "static/media/web.png": "/ByteSmith/static/media/web.f9d169e80e84e333a6d1.png",
+    "static/media/app.png": "/ByteSmith/static/media/app.a023733a4ef21de48613.png",
+    "static/media/UI.png": "/ByteSmith/static/media/UI.e9086d818a20db11202d.png",
+    "static/media/requriement.png": "/ByteSmith/static/media/requriement.56e04d9ed4bf7eac08b5.png",
+    "index.html": "/ByteSmith/index.html",
+    "main.ec03d96b.css.map": "/ByteSmith/static/css/main.ec03d96b.css.map",
+    "main.a8d196ad.js.map": "/ByteSmith/static/js/main.a8d196ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec03d96b.css",
+    "static/js/main.a8d196ad.js"
+  ]
+}
