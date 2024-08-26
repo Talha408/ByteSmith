@@ -136,6 +136,12 @@ p {
     color: #fff;
 }
 
+.social-icon{
+color: #fff;
+height: 30px !important;
+width: 30px !important;
+}
+
 @media only screen and (max-width: 600px) {
     .field-row {
         flex-direction: column;

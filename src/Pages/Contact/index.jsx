@@ -6,13 +6,13 @@ import "./contact.css";
 import { TextField, Button, Box } from "@mui/material";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import ChatIcon from '@mui/icons-material/Chat';
+import fiverricon from "../../Assets/Icons/fiverricon.png"
+import upworkicon from "../../Assets/Icons/upworkicon.png"
 const initialValues = {
   firstName: "",
   lastName: "",
@@ -181,13 +181,13 @@ function SignUp() {
             <h2>Visit us</h2>
             <span className="flex flex-center">
             <LocationOnIcon className="contact-icon"/>
-            <p> National Town, Sanda Road Lahore</p>
+            <p> 83 Muslim Colony, National Town, Lahore</p>
 
             </span>
           </div>
           <div className="info ">
             <h2>Chat to us</h2>
-            <span className="flex flex-center"><ChatIcon className="contact-icon"/><p>fatandhuge888@gmail.com</p></span>
+            <span className="flex flex-center"><ChatIcon className="contact-icon"/><p>hassantahir688@gmail.com</p></span>
           </div>
           <div className="info">
             <h2>Call us</h2>
@@ -197,32 +197,32 @@ function SignUp() {
             <h2>Social Media</h2>
             <div className="icons">
               <a
-                href="https://facebook.com"
+                href="https://www.upwork.com/freelancers/~011cf5e9717405ef6e?mp_source=share"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FacebookOutlinedIcon className="contact-icon"/>
+              <img src={upworkicon} alt="Upwork" className="social-icon"/>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.fiverr.com/hassan_tahir21?public_mode=true"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <TwitterIcon className="contact-icon"/>
+                <img src={fiverricon} alt="Fiverr" className="social-icon"/>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.upwork.com/freelancers/~011cf5e9717405ef6e?mp_source=share"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <InstagramIcon className="contact-icon"/>
+                <InstagramIcon className="social-icon"/>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/104894623/admin/inbox/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedInIcon className="contact-icon"/>
+                <LinkedInIcon className="social-icon"/>
               </a>
             </div>
           </div>
